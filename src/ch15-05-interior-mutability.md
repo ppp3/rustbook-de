@@ -440,7 +440,7 @@ Wert zu verändern, während der äußere Wert als unveränderlich betrachtet wi
 
 Das Feld `sent_messages` ist jetzt vom Typ `RefCell<Vec<String>>` anstelle von
 `Vec<String>`. In der Funktion `new` erstellen wir eine neue 
-`RefCell<Vec<Sting>>`-Instanz um den leeren Vektor.
+`RefCell<Vec<String>>`-Instanz um den leeren Vektor.
 
 Für die Implementierung der `send`-Methode ist der erste Parameter immer noch
 eine unveränderliche Ausleihe von `self`, die der Merkmalsdefinition entspricht.
